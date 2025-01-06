@@ -1,0 +1,47 @@
+@import "simplelightbox/dist/simple-lightbox.min.css";
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: calc((100% - 48px) / 3);
+    height: 200px;
+}
+
+.classModal {
+    max-width: 1112px;
+    height: 640px;
+    background-color: rgba(46, 47, 66, 0.8);
+    background-position: center;
+}
+
+.sl-wrapper {
+    background: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-navigation button,
+.sl-wrapper .sl-counter,
+.sl-wrapper .sl-close {
+    color: #fff;
+}
+
+.sl-wrapper .sl-counter,
+.sl-wrapper .sl-close {
+    font-size: 2rem;
+}
+
+.sl-wrapper .sl-navigation button {
+    font-size: 1rem;
+}
